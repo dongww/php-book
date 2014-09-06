@@ -1,4 +1,4 @@
-<!-- basic01_view.php -->
+<!-- tags01_view.php -->
 <!DOCTYPE html>
 <html>
 <head>

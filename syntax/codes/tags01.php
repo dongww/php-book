@@ -1,5 +1,5 @@
 <?php
-//basic01.php
+//tags01.php
 
 function today()
 {
@@ -14,4 +14,4 @@ $todoList = [
     '17:00' => '下班去买菜',
 ];
 
-require_once 'basic01_view.php';
+require_once 'tags01_view.php';
