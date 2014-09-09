@@ -9,11 +9,9 @@
 
 <p>今天是：<?= today() ?>，今天该做的事情：</p>
 <ul>
-    <?php
-    foreach ($todoList as $time => $event) {
-        echo '<li>', $time, '：', $event, '</li>', PHP_EOL;
-    }
-    ?>
+    <?php foreach ($todoList as $time => $event): ?>
+        <li><?= $time ?>：<?= $event ?></li>
+    <?php endforeach ?>
 </ul>
 
 </body>
